@@ -15,10 +15,10 @@ If you haven't installed `nigroni-mgo-session`, you can run the below command to
 
 2. This package will be used with nigroni and mgo. If you haven't installed the dependencies you could install run the below command.
 
-    * To install [Nigroni](https://github.com/codegangsta/negroni) run the command below.
+    * To install [Nigroni](https://github.com/urfave/negroni) run the command below.
 
         ```bash
-        go get github.com/codegangsta/negroni
+        go get github.com/urfave/negroni
         ```
     * To install [mgo](https://github.com/go-mgo/mgo) run the command below.
 
@@ -58,7 +58,7 @@ If you haven't installed `nigroni-mgo-session`, you can run the below command to
             "net/http"
             "os"
 
-            "github.com/codegangsta/negroni"
+            "github.com/urfave/negroni"
             nigronimgosession "github.com/joeljames/nigroni-mgo-session"
         )
 
